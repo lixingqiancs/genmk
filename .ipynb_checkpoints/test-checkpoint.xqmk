@@ -1,3 +1,13 @@
->sample1
-1	0	echo "test1"
-2	1	echo "test2"
+@sample1
+1	0	echo "Sample1 test1"
+1	echo "Error"
+2	1	echo "Sample1 test2"
+3	1,2	echo "Sample1 test3"
+@sample2
+1	0	echo "Sample2 test1"
+1	echo "Error"
+2	1	echo "Sample2 test2"
+3	1,2	echo "Sample2 test3"
+4	all	echo "All"
+
+

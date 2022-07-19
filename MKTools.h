@@ -1,11 +1,13 @@
 #include <string>
-#include <map>
+// #include <map>
 #include <vector>
 
 using namespace std;
 
 #ifndef MKTOOLS_H
 #define MKTOOLS_H
+
+#define ALL "all"
 
 struct Jobs
 {
@@ -17,19 +19,20 @@ struct Jobs
 class MKTools{
 	
 	private:
-		// private
+		string sampleName;
 		vector<string> mkArray;
 		vector<string> sampleArray;
-		vector<map<string,vector<string>>> targetsHead;
-		vector<map<string,vector<Jobs>>> targetsBody;
+		vector< vector<string> > targetsHead;  //Sample:targetName
+		vector< vector<Jobs> > targetsBody;  //Sample:
+		vector<string> targetsAll;
 	
 	public:
-		// public 
+		MKTools();
 		void loadFile();
 		void loadFile(const string& fileName);
 		void parseFile();
 		vector<string> split(const string& str, const string& delim);
-
+		void exportMK(const string& fileName);
 };
 
 #endif // MKTOOLS_H
