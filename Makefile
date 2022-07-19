@@ -1,5 +1,5 @@
 CC = g++
-CFLAGS = -O2 -Wall -g
+CFLAGS = -O2 -Wall -g -std=c++11
 
 install: create_pipeline
 
