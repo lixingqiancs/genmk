@@ -67,7 +67,8 @@ void MKTools::parseFile()
 	vector<Jobs> targetsBodySample;
 	for(long unsigned int i=0;i<mkArray.size();i++){
 		if(mkArray[i].size()==0) continue;
-		if (mkArray[i].rfind("@", 0) == 0){
+		if(mkArray[i].rfind("#", 0) == 0) continue;
+		if(mkArray[i].rfind("@", 0) == 0){
 			if(targetsHeadSample.size()>0){ 
 				this->targetsHead.push_back(targetsHeadSample); 
 				this->targetsBody.push_back(targetsBodySample);

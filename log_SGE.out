@@ -1,0 +1,32 @@
+python3: can't open file '/mnt/hwt2_data1/xingqian/bin/qsub_jobs_threads3/qsub_jobs_threads3_xqmk.py': [Errno 2] No such file or directory
+Jobs parse	Time: 2022-07-21 11:15:38	Makefile: test.mk
+Jobs summary	total:3	parallel run:10
+Job submit	ID: 9938046	Name: log.Job_1.done	Time: 2022-07-21 11:15:44	CPU: 1
+Job finished	ID: 9938046	Name: log.Job_1.done	Time: 2022-07-21 11:15:59	33.3%
+Job submit	ID: 9938047	Name: log.Job_2.done	Time: 2022-07-21 11:15:59	CPU: 1
+Job finished	ID: 9938047	Name: log.Job_2.done	Time: 2022-07-21 11:16:15	66.7%
+Job submit	ID: 9938049	Name: log.Job_3.done	Time: 2022-07-21 11:16:15	CPU: 1
+Job finished	ID: 9938049	Name: log.Job_3.done	Time: 2022-07-21 11:16:28	100.0%
+Jobs all finished	Time: 2022-07-21 11:16:28	Makefile: test.mk
+Jobs parse	Time: 2022-07-21 17:04:36	Makefile: None
+Jobs summary	total:8	parallel run:20
+Job submit	ID: 9938296	Name: log.sample1.Job_1.done	Time: 2022-07-21 17:04:43	CPU: 1
+Job submit	ID: 9938297	Name: log.sample2.Job_1.done	Time: 2022-07-21 17:04:43	CPU: 1
+Job submit	ID: 9938298	Name: log.sample1.Job_2.done	Time: 2022-07-21 17:05:44	CPU: 1
+Job submit	ID: 9938299	Name: log.sample2.Job_2.done	Time: 2022-07-21 17:05:44	CPU: 1
+Job Eqw (killed)	ID: 9938298	Name: log.sample1.Job_2.done	Time: 2022-07-21 17:05:46
+Job submit	ID: 9938301	Name: log.sample1.Job_2.done	Time: 2022-07-21 17:05:46	CPU: 1
+Job submit	ID: 9938302	Name: log.sample2.Job_3.done	Time: 2022-07-21 17:05:46	CPU: 1
+Job submit	ID: 9938303	Name: log.sample1.Job_3.done	Time: 2022-07-21 17:08:22	CPU: 1
+Job submit	ID: 9938304	Name: log.sample2.done	Time: 2022-07-21 17:08:22	CPU: 1
+Job submit	ID: 9938306	Name: log.sample1.done	Time: 2022-07-21 17:08:55	CPU: 1
+Job qdel while job qw or qacct can't accounting file 	ID: 9938297	Name: log.sample2.Job_1.done	Time: 2022-07-21 17:09:43
+Job auto-kill (killed)	ID: 9938296	Name: log.sample1.Job_1.done	Time: 2022-07-21 17:09:43
+Job auto-kill (killed)	ID: 9938297	Name: log.sample2.Job_1.done	Time: 2022-07-21 17:09:43
+Job auto-kill (killed)	ID: 9938301	Name: log.sample1.Job_2.done	Time: 2022-07-21 17:09:43
+Job auto-kill (killed)	ID: 9938299	Name: log.sample2.Job_2.done	Time: 2022-07-21 17:09:43
+Job auto-kill (killed)	ID: 9938302	Name: log.sample2.Job_3.done	Time: 2022-07-21 17:09:43
+Job auto-kill (killed)	ID: 9938303	Name: log.sample1.Job_3.done	Time: 2022-07-21 17:09:43
+Job auto-kill (killed)	ID: 9938304	Name: log.sample2.done	Time: 2022-07-21 17:09:43
+Job auto-kill (killed)	ID: 9938306	Name: log.sample1.done	Time: 2022-07-21 17:09:43
+Moniter program Stopped	Time: 2022-07-21 17:09:43	Makefile: None
