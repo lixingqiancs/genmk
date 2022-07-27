@@ -51,12 +51,12 @@ genmk
 3       1,2     echo "test3"
 ```
 The xqmk file It is composed of three parts:
--	Sample name: Optional, when you have multiple samples to analyze, you need to specify the sample name, ***starting with @***
--	Target information: Required, it must consist of three parts, each of which cannot be missing, ***and the delimiter is "\t"***.
-  -	Target Name: It can be written as a number or as a word, when target name is shorter, it will be prefixed with "Job_".
-  -	Prerequisites: It is a combination of numbers, each number means the line number of the prerequisite target, separated by commas.
-  -	Command: Executable linux command for specific targets, please note that this command must be executable.
--	Final Target: Optional, if you want to perform some summary-like calculations at the end of the pipeline, you can define it in the Final Target, please note that it can only be defined once. Its format is the same as Target information, but the ***Prerequisites column can only write all***.
+1. Sample name: Optional, when you have multiple samples to analyze, you need to specify the sample name, ***starting with @***
+2. Target information: Required, it must consist of three parts, each of which cannot be missing, ***and the delimiter is "\t"***.
+  > - Target Name: It can be written as a number or as a word, when target name is shorter, it will be prefixed with "Job_".
+  > - Prerequisites: It is a combination of numbers, each number means the line number of the prerequisite target, separated by commas.
+  > - Command: Executable linux command for specific targets, please note that this command must be executable.
+3. Final Target: Optional, if you want to perform some summary-like calculations at the end of the pipeline, you can define it in the Final Target, please note that it can only be defined once. Its format is the same as Target information, but the ***Prerequisites column can only write all***.
 
 
 
